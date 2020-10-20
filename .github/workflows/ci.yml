@@ -11,7 +11,7 @@ on:
 
 jobs:
 
-  build:
+  ci:
     runs-on: ubuntu-latest
     steps:
 
@@ -27,3 +27,12 @@ jobs:
         run: mvn clean deploy
         env:
           GITHUB_TOKEN: ${{ github.token }}
+
+      - name: Build and Push Docker Image
+        uses: docker/build-push-action@v1
+        with:
+          username: ${{ github.actor }}
+          password: ${{ github.token }}
+          registry: docker.pkg.github.com
+          repository: trent-j/jdconf-demo/jdconf-demo
+          tag_with_ref: true
