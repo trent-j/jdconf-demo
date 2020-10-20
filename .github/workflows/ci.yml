@@ -25,3 +25,5 @@ jobs:
 
       - name: Build, Test, and Deploy
         run: mvn clean deploy
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
