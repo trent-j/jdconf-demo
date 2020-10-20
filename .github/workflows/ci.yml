@@ -23,5 +23,5 @@ jobs:
         with:
           java-version: '8'
 
-      - name: Build
-        run: mvn clean install
+      - name: Build, Test, and Deploy
+        run: mvn clean deploy

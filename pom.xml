@@ -50,14 +50,14 @@
         </plugins>
     </build>
 
-    <!-- <distributionManagement>
+    <distributionManagement>
 
         <repository>
-            <id>central</id>
-            <name>github-releases</name>
-            <url>https://172.28.128.8/_registry/maven/ghe-admin/enterprise</url>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/trent-j/jdconf-demo</url>
         </repository>
 
-    </distributionManagement> -->
+    </distributionManagement>
 
 </project>
