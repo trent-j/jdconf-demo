@@ -50,4 +50,14 @@
         </plugins>
     </build>
 
+    <!-- <distributionManagement>
+
+        <repository>
+            <id>central</id>
+            <name>github-releases</name>
+            <url>https://172.28.128.8/_registry/maven/ghe-admin/enterprise</url>
+        </repository>
+
+    </distributionManagement> -->
+
 </project>
