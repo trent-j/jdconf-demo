@@ -19,8 +19,7 @@
             "label": "run",
             "type": "shell",
             "command": "mvn clean install && java -jar ./target/jdconf-demo*.jar",
-            "group": "build",
-            "problemMatcher": []
+            "group": "build"
         }
     ]
 }
