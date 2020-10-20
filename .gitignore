@@ -5,3 +5,8 @@
 
 # Generated files
 target
+
+# Java files
+org.eclipse*
+.classpath
+.project
