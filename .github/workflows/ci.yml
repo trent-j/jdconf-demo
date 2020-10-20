@@ -35,4 +35,4 @@ jobs:
           password: ${{ github.token }}
           registry: docker.pkg.github.com
           repository: trent-j/jdconf-demo/jdconf-demo
-          tag_with_ref: true
+          tag_with_sha: true
