@@ -29,6 +29,6 @@ public class HelloControllerTest {
 
         mvc.perform(helloRequest)
                 .andExpect(status().isOk())
-                .andExpect(content().string(equalTo("Hello JDConf!")));
+                .andExpect(content().string(equalTo("Hello World!")));
     }
 }
